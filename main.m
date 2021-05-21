@@ -2,9 +2,6 @@ clear all;
 clc;
 %% Exercise 5- Principal component analysis (PCA) of Epileptic Seizures
 
-% Gali Winterberger      - id 315679571
-% Yair Lahad             - id 205493018
-
 %% Setting variables
 files=dir('..\DATA_DIR\**\*.mat'); %get the files ending with ".mat"
 data=dataHandle(files); % using a function to handle and filter our data
